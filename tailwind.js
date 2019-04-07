@@ -47,6 +47,7 @@ let colors = {
   'transparent': 'transparent',
 
   'black': '#22292f',
+  'grey-custom': '#3E3E3E',
   'grey-darkest': '#3d4852',
   'grey-darker': '#606f7b',
   'grey-dark': '#8795a1',
@@ -96,6 +97,7 @@ let colors = {
   'teal-lighter': '#a0f0ed',
   'teal-lightest': '#e8fffe',
 
+  'blue-custom': '#2637DD',
   'blue-darkest': '#12283a',
   'blue-darker': '#1c3d5a',
   'blue-dark': '#2779bd',
@@ -195,6 +197,7 @@ module.exports = {
 
   fonts: {
     'sans': [
+      'Rubik',
       'system-ui',
       'BlinkMacSystemFont',
       '-apple-system',
@@ -955,7 +958,7 @@ module.exports = {
 
   plugins: [
     require('tailwindcss/plugins/container')({
-      // center: true,
+      center: true,
       // padding: '1rem',
     }),
   ],

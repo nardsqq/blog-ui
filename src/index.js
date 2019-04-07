@@ -20,13 +20,13 @@ const App = () => {
 									<label htmlFor="username" className="block uppercase tracking-wide text-grey-custom text-sm font-bold mb-2">
 										Username
 									</label>
-									<input type="text" className="appearance-none block w-full bg-grey-lighter text-grey-darker border rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:border-blue-custom focus:bg-white"/>
+									<input type="text" className="appearance-none block w-full bg-grey-lighter text-grey-darker border border-grey-lighter rounded py-3 px-4 leading-tight focus:outline-none focus:bg-white focus:border-blue-custom"/>
 								</div>
 								<div className="w-full px-3 py-4 mb-6 md:mb-0">
 									<label htmlFor="password" className="block uppercase tracking-wide text-grey-custom text-sm font-bold mb-2">
 										Password
 									</label>
-									<input type="password" className="appearance-none block w-full bg-grey-lighter text-grey-darker border rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:border-blue-custom focus:bg-white"/>
+									<input type="password" className="appearance-none block w-full bg-grey-lighter text-grey-darker border border-grey-lighter rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:border-blue-custom focus:bg-white"/>
 								</div>
 								<div className="w-full px-3 md:mb-0">
 									<button className="w-full bg-blue-custom hover:bg-blue text-white font-bold py-4 px-4 rounded text-lg">

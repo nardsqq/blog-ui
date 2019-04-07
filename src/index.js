@@ -20,7 +20,7 @@ const App = () => {
 									<label htmlFor="username" className="block uppercase tracking-wide text-grey-custom text-sm font-bold mb-2">
 										Username
 									</label>
-									<input type="text" className="appearance-none block w-full bg-grey-lighter text-grey-darker border border-grey-lighter rounded py-3 px-4 leading-tight focus:outline-none focus:bg-white focus:border-blue-custom"/>
+									<input type="text" className="appearance-none block w-full bg-grey-lighter text-grey-darker border border-grey-lighter rounded py-3 px-4 leading-tight focus:outline-none focus:bg-white focus:border-blue-custom mb-2"/>
 								</div>
 								<div className="w-full px-3 py-4 mb-6 md:mb-0">
 									<label htmlFor="password" className="block uppercase tracking-wide text-grey-custom text-sm font-bold mb-2">

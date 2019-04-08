@@ -12,7 +12,7 @@ const App = () => {
                     Hello! <br />Welcome to <span className="italic">Journey</span>.
                 </h1>
                 <p className="text-3xl text-white mt-10">
-                    An online <span className="font-bold">blogging</span> platform for tech loving <span className="font-bold">geeks</span>.
+                    An online <span className="font-bold">blogging</span> platform for tech loving <span className="font-bold">geeks</span>. <a href="#" className="italic font-bold no-underline text-white hover:text-blue">Sign up now!</a>
                 </p>
             </div>
             <div className="w-1/3"></div>

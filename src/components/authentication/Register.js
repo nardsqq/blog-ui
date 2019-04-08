@@ -5,7 +5,7 @@ const Register = () => {
   return (
 		<div className="flex font-sans">
 			<div className="w-1/3"></div>
-			<div className="container mx-auto w-1/3 mt-32">
+			<div className="container mx-auto w-1/3 mt-16">
 				<div className="mb-8 mt-8">
 					<h1 className="text-center text-3xl font-bold text-blue-custom">
 						Sign up for an account
@@ -39,7 +39,7 @@ const Register = () => {
 									</label>
 									<input type="password" className="appearance-none block w-full bg-grey-lighter text-grey-darker border border-grey-lighter rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:border-blue-custom focus:bg-white"/>
 								</div>
-								<div className="w-full px-3 md:mb-0">
+								<div className="w-full px-3 mt-4 md:mb-0">
 									<button className="w-full bg-blue-custom hover:bg-blue text-white font-bold py-4 px-4 rounded text-lg">
 										Sign Up
 									</button>

@@ -1,10 +1,10 @@
 import React from "react";
-import Login from "./authentication/Login";
+import Register from "./authentication/Register";
 
 const App = () => {
     return (
         <div>
-            <Login />
+            <Register />
         </div>
     );
 };

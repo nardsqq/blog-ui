@@ -1,22 +1,24 @@
 import React from "react";
-import Helmet from "react-helmet";
+import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
+
+import Login from "./authentication/Login";
+import Register from "./authentication/Register";
+import Home from "./Home";
+import Navbar from "./Navbar";
+
 import "../index.css";
 
 const App = () => {
     return (
-        <div className="flex font-sans mt-12">
-            <Helmet bodyAttributes={{ style: 'background-color: #2637DD' }} />
-            <div className="w-1/3"></div>
-            <div className="w-1/3 container mx-auto mt-32">
-                <h1 className="text-xxl text-white">
-                    Hello! <br />Welcome to <span className="italic">Journey</span>.
-                </h1>
-                <p className="text-3xl text-white mt-10">
-                    An online <span className="font-bold">blogging</span> platform for tech loving <span className="font-bold">geeks</span>. <a href="#" className="italic font-bold no-underline text-white hover:text-blue">Sign up now!</a>
-                </p>
-            </div>
-            <div className="w-1/3"></div>
-        </div>
+        <Router>
+            <Navbar />
+            <Switch>
+                <Route path="/" exact component={ Home }/>
+                <Route path="/sign-in" exact component={ Login }/>
+                <Route path="/sign-up" exact component={ Register } />
+            </Switch>
+        </Router>
+            
     );
 };
 

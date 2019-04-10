@@ -11,3 +11,7 @@ The user interface is wireframed immediately in high fidelity format to save tim
 1. Run `npm install` to install all required dependencies within the project.
 2. Afterwards, to build the assets and start the local server, run `npm start` and proceed to a modern web browser.
 3. On your browser's address bar, access the application via: `localhost:3000`.
+
+## Developer's Note
+
+* If a server error persist, change the baseURL parameter within `api\auth.js` to your own localhost url.

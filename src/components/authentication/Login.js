@@ -1,11 +1,12 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import "../../index.css";
 
 const Login = () => {
   return (
 		<div className="flex font-sans">
 			<div className="w-1/3"></div>
-			<div className="container mx-auto w-1/3 mt-32">
+			<div className="container mx-auto w-1/3 mt-24">
 				<div className="mb-8 mt-8">
 					<h1 className="text-center text-3xl font-bold text-blue-custom">
 						Start your <span className="italic">Journey</span> with us!
@@ -34,9 +35,9 @@ const Login = () => {
 								</div>
 								<div className="w-full text-center px-3 mt-4">
 									<p className="text-grey-dark text-xs">
-										Haven't started yours yet? <a href="#" className="text-grey-darker italic no-underline hover:text-blue-custom">
+										Haven't started yours yet? <Link to="/sign-up" className="text-grey-darker italic no-underline hover:text-blue-custom">
 											Sign up for an account
-										</a>
+										</Link>
 									</p>
 								</div>
 							</div>
